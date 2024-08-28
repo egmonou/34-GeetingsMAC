@@ -12,7 +12,6 @@
 		C3050F512C7F97E1005AE12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3050F502C7F97E1005AE12B /* Assets.xcassets */; };
 		C3050F542C7F97E1005AE12B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3050F532C7F97E1005AE12B /* Preview Assets.xcassets */; };
 		C3050F5B2C7F98D5005AE12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C8044B2C7085EA007A4C49 /* Assets.xcassets */; };
-		C3050F5C2C7F98E2005AE12B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3C804662C750AA2007A4C49 /* Localizable.xcstrings */; };
 		C3050F5D2C7F98E7005AE12B /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */; };
 		C3050F5E2C7F98ED005AE12B /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804582C70C26F007A4C49 /* DataItemModel.swift */; };
 		C3050F5F2C7F98F3005AE12B /* LanguageOptionTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D978CD2C7DD2EF006371DF /* LanguageOptionTapView.swift */; };
@@ -26,6 +25,9 @@
 		C3050F672C7F9910005AE12B /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */; };
 		C3050F682C7F9914005AE12B /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804492C7085E7007A4C49 /* GreetingsView.swift */; };
 		C3050F692C7F9917005AE12B /* GrettingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8046C2C765E67007A4C49 /* GrettingsTextView.swift */; };
+		C3050F6A2C7F9A17005AE12B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3C804662C750AA2007A4C49 /* Localizable.xcstrings */; };
+		C3050F6B2C7F9A35005AE12B /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FB1482C79E40F009BB8A3 /* Constatns.swift */; };
+		C3050F6E2C7FA1F0005AE12B /* MainViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3050F6C2C7FA171005AE12B /* MainViewMac.swift */; };
 		C32004D12C77439D0086367A /* RotatableCireceleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D02C77439D0086367A /* RotatableCireceleView.swift */; };
 		C32004D32C77466B0086367A /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D22C77466B0086367A /* VerticalTitleView.swift */; };
 		C32004D52C7799A20086367A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D42C7799A20086367A /* MainView.swift */; };
@@ -54,6 +56,7 @@
 		C3050F4E2C7F97DD005AE12B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3050F502C7F97E1005AE12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3050F532C7F97E1005AE12B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3050F6C2C7FA171005AE12B /* MainViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewMac.swift; sourceTree = "<group>"; };
 		C32004D02C77439D0086367A /* RotatableCireceleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCireceleView.swift; sourceTree = "<group>"; };
 		C32004D22C77466B0086367A /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		C32004D42C7799A20086367A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C3050F4C2C7F97DD005AE12B /* Greeting_MACApp.swift */,
+				C3050F6C2C7FA171005AE12B /* MainViewMac.swift */,
 				C3050F4E2C7F97DD005AE12B /* ContentView.swift */,
 				C3050F502C7F97E1005AE12B /* Assets.xcassets */,
 				C3050F522C7F97E1005AE12B /* Preview Content */,
@@ -120,6 +124,7 @@
 			children = (
 				C3C8044B2C7085EA007A4C49 /* Assets.xcassets */,
 				C3C804662C750AA2007A4C49 /* Localizable.xcstrings */,
+				C39FB1482C79E40F009BB8A3 /* Constatns.swift */,
 				C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */,
 				C3050F592C7F981F005AE12B /* Model */,
 				C3050F5A2C7F9825005AE12B /* Views */,
@@ -175,7 +180,6 @@
 		C3C804462C7085E7007A4C49 /* Geetings */ = {
 			isa = PBXGroup;
 			children = (
-				C39FB1482C79E40F009BB8A3 /* Constatns.swift */,
 				C3C804472C7085E7007A4C49 /* GeetingsApp.swift */,
 				C32004D42C7799A20086367A /* MainView.swift */,
 				C3C8044D2C7085EA007A4C49 /* Geetings.entitlements */,
@@ -277,7 +281,7 @@
 			files = (
 				C3050F542C7F97E1005AE12B /* Preview Assets.xcassets in Resources */,
 				C3050F5B2C7F98D5005AE12B /* Assets.xcassets in Resources */,
-				C3050F5C2C7F98E2005AE12B /* Localizable.xcstrings in Resources */,
+				C3050F6A2C7F9A17005AE12B /* Localizable.xcstrings in Resources */,
 				C3050F512C7F97E1005AE12B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,12 +311,14 @@
 				C3050F5F2C7F98F3005AE12B /* LanguageOptionTapView.swift in Sources */,
 				C3050F612C7F98F9005AE12B /* landscapeGreetingView.swift in Sources */,
 				C3050F652C7F9908005AE12B /* RotatableCireceleView.swift in Sources */,
+				C3050F6B2C7F9A35005AE12B /* Constatns.swift in Sources */,
 				C3050F5D2C7F98E7005AE12B /* GreetingsTip.swift in Sources */,
 				C3050F642C7F9903005AE12B /* VerticalTitleView.swift in Sources */,
 				C3050F4F2C7F97DD005AE12B /* ContentView.swift in Sources */,
 				C3050F4D2C7F97DD005AE12B /* Greeting_MACApp.swift in Sources */,
 				C3050F672C7F9910005AE12B /* MessagesView.swift in Sources */,
 				C3050F692C7F9917005AE12B /* GrettingsTextView.swift in Sources */,
+				C3050F6E2C7FA1F0005AE12B /* MainViewMac.swift in Sources */,
 				C3050F662C7F990D005AE12B /* TitleView.swift in Sources */,
 				C3050F682C7F9914005AE12B /* GreetingsView.swift in Sources */,
 			);

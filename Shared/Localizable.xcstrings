@@ -115,6 +115,9 @@
         }
       }
     },
+    "Hello, world!" : {
+
+    },
     "Hellow" : {
       "localizations" : {
         "ar" : {
@@ -196,6 +199,9 @@
         }
       }
     },
+    "IOS APP" : {
+
+    },
     "Learn how to bake" : {
       "localizations" : {
         "ar" : {
@@ -211,6 +217,9 @@
           }
         }
       }
+    },
+    "MAC APP" : {
+
     },
     "piece" : {
       "localizations" : {

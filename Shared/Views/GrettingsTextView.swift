@@ -24,9 +24,20 @@ struct GrettingsTextView: View {
             Text("Greeting")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+            #if os(macOS)
+            Text(subtitile)
+                .font(.title)
+            #elseif os(iOS)
             Text(subtitile)
                 .font(.headline)
                 .fontWeight(.thin)
+            #endif
+            
+            #if os(macOS)
+            Text("MAC APP")
+            #elseif os(iOS)
+            Text("IOS APP")
+            #endif
         }
         .onTapGesture {
             //change subtitile
