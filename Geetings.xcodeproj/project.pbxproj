@@ -25,6 +25,7 @@
 		C3C804672C750AA2007A4C49 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3C804662C750AA2007A4C49 /* Localizable.xcstrings */; };
 		C3C8046B2C765D73007A4C49 /* landscapeGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */; };
 		C3C8046D2C765E67007A4C49 /* GrettingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8046C2C765E67007A4C49 /* GrettingsTextView.swift */; };
+		C3D978CE2C7DD2EF006371DF /* LanguageOptionTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D978CD2C7DD2EF006371DF /* LanguageOptionTapView.swift */; };
 		C3DE4F592C7CF2F700530CCE /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		C3C804662C750AA2007A4C49 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landscapeGreetingView.swift; sourceTree = "<group>"; };
 		C3C8046C2C765E67007A4C49 /* GrettingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrettingsTextView.swift; sourceTree = "<group>"; };
+		C3D978CD2C7DD2EF006371DF /* LanguageOptionTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionTapView.swift; sourceTree = "<group>"; };
 		C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				C3C804562C7089E5007A4C49 /* TextView.swift */,
 				C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */,
 				C39FB1462C79E3BF009BB8A3 /* LanguageOptionsView.swift */,
+				C3D978CD2C7DD2EF006371DF /* LanguageOptionTapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				C3C8046D2C765E67007A4C49 /* GrettingsTextView.swift in Sources */,
 				C32004D52C7799A20086367A /* MainView.swift in Sources */,
 				C3C804592C70C26F007A4C49 /* DataItemModel.swift in Sources */,
+				C3D978CE2C7DD2EF006371DF /* LanguageOptionTapView.swift in Sources */,
 				C3C8046B2C765D73007A4C49 /* landscapeGreetingView.swift in Sources */,
 				C3C804572C7089E5007A4C49 /* TextView.swift in Sources */,
 				C3C8045F2C71F3D6007A4C49 /* LinearGradientView.swift in Sources */,

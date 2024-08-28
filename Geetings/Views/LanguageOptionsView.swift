@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct LanguageOptionsView: View {
     @Binding var language: String
     @Binding var layoutDirectionString: String
@@ -29,6 +31,8 @@ struct LanguageOptionsView: View {
             }))
     }
 }
+
+
 
 #Preview {
     LanguageOptionsView(language: .constant("en"), layoutDirectionString: .constant(LEFT_To_RIGHT))
